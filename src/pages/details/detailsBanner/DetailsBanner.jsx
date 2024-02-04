@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import dayjs from "dayjs";
 import { VideoPop } from "../../../components/videoPopup/VideoPop.jsx";
-
 import "./style.scss";
-
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import useFetch from "../../../hooks/UseFetch.jsx";
 import Genres from "../../../components/genres/Genres";
