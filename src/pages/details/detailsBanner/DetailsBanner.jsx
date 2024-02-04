@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import dayjs from "dayjs";
-import VideoPopup from "../../../components/videoPopup/VideoPopUp.jsx";
+import { VideoPopup } from "../../../components/videoPopup/VideoPopUp";
 
 import "./style.scss";
 
