@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import dayjs from "dayjs";
-import { VideoPopup } from "../../../components/videoPopup/VideoPopUp";
+import { VideoPop } from "../../../components/videoPopup/VideoPop.jsx";
 
 import "./style.scss";
 
@@ -150,7 +150,7 @@ const DetailsBanner = () => {
                                      
                                     </div>
                             </div>
-                            <VideoPopup
+                            <VideoPop
                                     show={show}
                                     setShow={setShow}
                                     videoUrl={videoUrl}
