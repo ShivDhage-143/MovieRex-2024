@@ -1,4 +1,4 @@
-import axios from "/node_modules/.vite/deps/axios.js?v=5a817e2e";
+import axios from "axios";
 
 const BASE_URL = "https://movies-api14.p.rapidapi.com";
 
